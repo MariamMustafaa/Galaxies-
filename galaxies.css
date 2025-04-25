@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    background:linear-gradient(rgba(39, 41, 44, 0.756),rgb(49, 70, 110),rgb(14, 41, 91),
+    rgb(1, 26, 50),hsl(217, 91%, 13%),hsl(225, 95%, 8%));
+    height: 190vh;
+}
+nav{
+    color: #26282bc1;
+    border: solid 2px;
+    border-color: black;
+}
+.header{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: hsl(209, 61%, 41%);
+}
+#logo{
+    margin-left: 550px;
+}
+h4{
+    margin-left: 600px;
+    opacity: 0.5;
+}
+.spiral{
+    height: 300px;
+    width: 400px;
+    background-image:url(spiral.jpeg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    margin-top: -70px;
+    margin-left: 935px;
+    border-radius: 10px;
+}
+#SG{
+    margin-left: 40px;
+    font-size: 40px;
+    color: hsl(204, 37%, 53%);
+}
+.text1{
+    margin-top:-250px;
+    font-size: 17px;
+    margin-left: 50px  
+}
+
+.elliptical{
+    height: 300px;
+    width: 400px;
+    background-image:url(Elliptical.jpeg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    margin-top: -50px;
+    margin-left: 935px;
+    border-radius: 10px;
+}
+#EG{
+    margin-top: 200px;
+    margin-left: 40px;
+    font-size: 40px;
+    color: hsl(204, 37%, 53%);
+}
+.text2{
+    margin-top:-250px;
+    font-size: 17px;
+    margin-left: 50px  
+}
+
+.irregular{
+    height: 300px;
+    width: 400px;
+    background-image:url(irregular.jpeg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    margin-top: -50px;
+    margin-left: 935px;
+    border-radius: 10px;
+}
+#IG{
+    margin-top: 260px;
+    margin-left: 40px;
+    font-size: 40px;
+    color: hsl(204, 37%, 53%);
+}
+.text3{
+    margin-top:-250px;
+    font-size: 17px;
+    margin-left: 50px  
+}
